@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Aurora Wireless Headphones",
+    "category": "Electronics",
+    "price": 2499,
+    "oldPrice": 4999,
+    "rating": 4.7,
+    "reviews": 120,
+    "inStock": true,
+    "image": "https://picsum.photos/400?random=1",
+    "description": "Noise-cancelling wireless headphones with deep bass and 30-hour battery life."
+  },
+  {
+    "id": 2,
+    "name": "Comfy Cotton T-Shirt",
+    "category": "Fashion",
+    "price": 499,
+    "oldPrice": 799,
+    "rating": 4.5,
+    "reviews": 90,
+    "inStock": true,
+    "image": "https://picsum.photos/400?random=2",
+    "description": "Soft, breathable 100% cotton t-shirt available in multiple colors."
+  },
+  {
+    "id": 3,
+    "name": "Smart Fitness Band",
+    "category": "Gadgets",
+    "price": 1799,
+    "oldPrice": 2499,
+    "rating": 4.3,
+    "reviews": 75,
+    "inStock": false,
+    "image": "https://picsum.photos/400?random=3",
+    "description": "Track your steps, heart rate, and sleep with this waterproof fitness band."
+  },
+  {
+    "id": 4,
+    "name": "Classic Leather Wallet",
+    "category": "Accessories",
+    "price": 999,
+    "oldPrice": 1499,
+    "rating": 4.6,
+    "reviews": 45,
+    "inStock": true,
+    "image": "https://picsum.photos/400?random=4",
+    "description": "Elegant handcrafted leather wallet with multiple card slots and coin pocket."
+  },
+  {
+    "id": 5,
+    "name": "Ceramic Coffee Mug",
+    "category": "Home & Kitchen",
+    "price": 299,
+    "oldPrice": 499,
+    "rating": 4.8,
+    "reviews": 60,
+    "inStock": true,
+    "image": "https://picsum.photos/400?random=5",
+    "description": "Microwave-safe ceramic mug with a smooth matte finish — perfect for coffee lovers."
+  }
+]
