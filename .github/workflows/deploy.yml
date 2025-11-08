@@ -24,7 +24,9 @@ jobs:
             cd ~/NodejsPracticeVM
             git pull origin main
             docker build -t backend:latest .
-            docker stop backend || true
-            docker rm backend || true
-            docker run -d --name backend -p 8000:8000 backend:latest
+            # Stop and remove old container if it exists
+            docker stop my-backend || true
+            docker rm my-backend || true
+            # Run new container
+            docker run -d --name my-backend -p 8000:8000 backend:latest
           EOF
