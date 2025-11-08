@@ -20,7 +20,7 @@ jobs:
 
       - name: Deploy to VPS
         run: |
-          ssh -o StrictHostKeyChecking=no root@YOUR_VPS_IP << 'EOF'
+          ssh -o StrictHostKeyChecking=no root@82.29.161.242 << 'EOF'
             cd ~/NodejsPracticeVM
             git pull origin main
             docker build -t backend:latest .
